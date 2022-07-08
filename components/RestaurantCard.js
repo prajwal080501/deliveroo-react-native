@@ -30,9 +30,8 @@ const RestaurantCard = ({
           </Text>
         </View>
         <View className="flex-row items-center">
-            <LocationMarkerIcon color="gray" opacity={0.4} size={22}/>
-            <Text className='text-xs text-gray-500'>Nearby . {address}</Text>
-
+          <LocationMarkerIcon color="gray" opacity={0.4} size={22} />
+          <Text className="text-xs text-gray-500">Nearby . {address}</Text>
         </View>
       </View>
     </TouchableOpacity>
